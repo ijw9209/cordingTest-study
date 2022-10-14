@@ -1,10 +1,12 @@
 const plusminus = require('./plusminus');
 
-test('홀수면 ', () => {
+test('1번 Case ', () => {
   expect(plusminus([4,7,12],[true,false,true])).toEqual(9);
 });
 
-// test('짝수면 "Even"', () => {
-//     expect(plusminus(4)).toBe("Even");
-// });
+
+test('2번 Case ', () => {
+  expect(plusminus([1,2,3],[false,false,true])).toEqual(0);
+});
+
 
