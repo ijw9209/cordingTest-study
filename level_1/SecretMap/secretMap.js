@@ -13,6 +13,8 @@ secretMap = (n, arr1, arr2) => {
         //  앞의 0 이 없으면 붙임 , 0 -> ' ' 공백 치환 , [1-9] 숫자라면 #으로 치환
         answer[i] = String(add).padStart(n, '0').replaceAll(0, ' ').replaceAll(/[1-9]/g,'#');
     }
+
+    console.log(answer);
     return answer;
 }
 module.exports = secretMap;
