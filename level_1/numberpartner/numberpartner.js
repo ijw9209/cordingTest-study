@@ -6,7 +6,7 @@ numberpartner = (X, Y) => {
    
     var answer = '';
     
-    let xArr = X.split('').sort();
+    let xArr = X.split('' ).sort();
     let yArr = Y.split('').sort();
     
     for(let i = 0; i <= 9; i++){
